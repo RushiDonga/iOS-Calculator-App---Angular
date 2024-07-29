@@ -1,0 +1,77 @@
+/* body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    Height: 100vh;
+
+} */
+main {
+    /* margin-top: 50px; */
+    background-color: #242424aa;
+    width: 232px;
+    height: 318px;
+    border-color: #ffffff33;
+    border-width: 1px;
+    border-style: inset solid;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px #00000099;
+}
+.noElectron {
+    margin-top: 50px;
+}
+header, .header {
+    -webkit-app-region: drag;
+    height: 26px;
+    display: inline-flex;
+    /* padding: 3px; */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.red {
+    background-color: #ff5f57;
+}
+.yellow {
+    background-color: #ffbb2e;
+}
+.green {
+    background-color: #28c540;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    margin: 8px;
+    margin-right: 1px;
+    border-radius: 100px;
+    color: #00000088;
+
+}
+.dot span {
+    position: relative;
+    font-size: 14px;
+    bottom: 4px;
+    left: 1.5px;
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { 
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+}
